@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script></script>
+    <style>
+      body {
+        background-color: black;
+        background-image: url("bg2.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+
+      #st {
+        margin-top: 270px;
+        margin-left: -150px;
+        height: 350px;
+        width: 350px;
+      }
+
+      #play {
+        background-color: white;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      #more_info {
+        color: white;
+        background-color: grey;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .button {
+        margin-left: 20px;
+        margin-top: -80px;
+      }
+
+      #logo {
+        float: left;
+      }
+
+      .search_bar {
+        float: right;
+        margin-top: 20px;
+        margin-right: 20px;
+        opacity: 0.7;
+      }
+      #bar {
+        padding: 5px;
+        padding-right: 120px;
+        background-color: black;
+        border: 1px solid red;
+      }
+      #button {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <img id="logo" src="net.png" height="100px" width="150px" />
+      <div class="search_bar">
+        <input
+          id="bar"
+          placeholder="Search here"
+          type="text"
+          style="color: white"
+        />
+        <button id="button">Search</button>
+      </div>
+      <img id="st" src="st.png" />
+    </div>
+    <div class="button">
+      <a href="video.html"><button id="play">Play</button></a>
+
+      <button id="more_info">More Info</button>
+    </div>
+  </body>
+</html>
